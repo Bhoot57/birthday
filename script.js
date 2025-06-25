@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             type: 'video',
-            src: 'assets/video/sanp-6.mp4',
+            src: 'assets/video/snap-6.mp4',
             poster: 'assets/video/poster-6.png',
             message: "You're the calm in my chaos, the light in my dark, and the love in my soul"
         },
