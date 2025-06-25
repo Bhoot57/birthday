@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    <div class="birthday-container">
+        <!-- Birthday Flip Card -->
+        <div class="flip-card" id="flipCard">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <h1 class="birthday-title">Happy Birthday!</h1>
+                    <div class="luxury-cake">
+                        <div claas="cake-plate"></div>
+                        <div class="cake-layer layer-1"></div>
+                        <div class="cake-layer layer-2"></div>
+                        <div class="cake-layer layer-3"></div>
+                        <div class="cake-icing"></div>
+                        <div class="cake-drip drip-1"></div>
+                        <div class="cake-drip drip-2"></div>
+                        <div class="cake-drip drip-3"></div>
+                        <div class="candle">
+                            <div class="candle-stick"></div>
+                            <div class="flame"></div>
+                            <div class="glow"></div>
+                        </div>
+                        <div calss="sparkles"></div>
+                    </div>
+                    <div class="floating-hearts">
+                        <div class="heart"></div>
+                        <div class="heart"></div>
+                        <div class="heart"></div>
+                        
+                    </div>
+                </div>
+                <div class="flip-card-back">
+                    <div class="floral-background"></div>
+                    <div class="wishes-content">
+                        
+                        <h2>Happy Birthday Pandu🐼!</h2>
+                        <div class="balloons-container">
+                        <div class="balloon balloon1"></div>
+                        <div class="balloon balloon2"></div>
+                        <div class="balloon balloon3"></div>
+                        <div class="balloon balloon4"></div>
+                        <div class="balloon balloon5"></div>
+                    </div>
+
+                        
+                        <div class="wishes-message">
+                            <p>Wishing you joy and happiness! </p>
+                            <p> Happy Birthday Pandu🐼! 🎉
+May your day be filled with joy, laughter, and unforgettable moments. Wishing you success, good health, and endless happiness. May this year bring new adventures and beautiful memories. Keep shining and chasing your dreams. You deserve all the best today and always. Have an amazing celebration! 🥳🎂
+</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button id="gallery-btn" class="nav-btn">View Memories <i class="fas fa-images"></i></button>
+    </div>
+
+    <!-- Memory Gallery Section -->
+    <div class="memory-gallery hidden">
+        <div class="memory-cards-container">
+            <!-- Memory cards will be added by JavaScript -->
+        </div>
+        <button id="back-btn" class="nav-btn"><i class="fas fa-arrow-left"></i> Back to Wishes</button>
+    </div>
+
+    <!-- Audio Elements -->
+    <audio id="birthday-song" loop>
+        <source src="assets/songs/happy-birthday-songs.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="gallery-music" loop>
+        <source src="assets/songs/next-songs.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="music-control">
+        <button id="music-btn"><i class="fas fa-music"></i> Toggle Music</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
