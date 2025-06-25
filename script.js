@@ -201,11 +201,17 @@ document.addEventListener('DOMContentLoaded', function() {
             memoryCardsContainer.appendChild(memoryCard);
             
             // Add click event to flip each card
-            memoryCard.addEventListener('click', function() {
-                this.classList.toggle('flipped');
-            });
+            ['click','touchstart'].forEach(eventType => {
+                memoryCard.addEventListener(eventType, function(e) {
+                    e.preventDefault();
+                    this.classList.toggle('flipped');
+                })
+            })
+            
         });
     }
+    
+
     
     // Show memory gallery
     galleryBtn.addEventListener('click', function() {
