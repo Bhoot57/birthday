@@ -103,19 +103,19 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             type: 'video',
-            src: 'assets/video/sanp-7.mp4',
+            src: 'assets/video/snap-7.mp4',
             poster: 'assets/video/poster-7.png',
             message: "Your love doesn’t ask for perfection — it just holds me where I am, and somehow, that’s more than enough."
         },
         {
             type: 'video',
-            src: 'assets/video/sanp-8.mp4',
+            src: 'assets/video/snap-8.mp4',
             poster: 'assets/video/poster-8.png',
             message: "Wishing you a day as lovely and amazing as you are. May laughter and love surround you always."
         },
         {
             type: 'video',
-            src: 'assets/video/sanp-9.mp4',
+            src: 'assets/video/snap-9.mp4',
             poster: 'assets/video/poster-9.png',
             message: "The heart knows what the mind can’t understand"
         },
